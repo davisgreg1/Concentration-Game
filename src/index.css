@@ -1,0 +1,39 @@
+.main {
+		width: 100vw;
+		height: 100vh;
+		font-family: sans-serif;
+		border: 2px solid yellow;
+		border-radius: 8px;
+		background: linear-gradient(#552583, #FDB927, #000000, #FFFFFF);
+	}
+
+.cardHolder {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 300px;
+}
+
+.flex-container {
+  display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+	align-content: center;
+}
+
+	.cardDiv {
+		width: 100px;
+		margin: auto;
+		position: relative;
+		flex: 1;
+	}
+
+	img {
+		padding-right: 
+		15px;
+	}
+
+
+	.clear {
+		clear: both
+	}

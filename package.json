@@ -1,0 +1,18 @@
+{
+  "name": "concentration-game",
+  "description": "In this exercise, we're making the classic matching game Concentration using React.\n\nUse the images in the \"cards\" file of this directory for your card graphics. You can get direct image links by right-clicking on them and clicking \"open image in new tab.\" The link in your browser is a direct link to the image, which you can pass to an img element in JSX.\n\nThe back image can serve as your card back. The rest of the images will be your icons to match. Your game board will be a 4 by 4 square of cards.\n\nThere's no template for this. You're building it from scratch in Code Sandbox. Things to consider:\n\nHow are you going to keep track of the cards without showing them to the user? (hint: functional component?)\nHow are you going to check if the two cards the user picks are the same?\nIf their choice is incorrect, how are you going to:\nShow the user both cards, and...\nRevert the cards to their card backs?\nHow are you going to check if the game is complete?",
+  "version": "0.0.11",
+  "dependencies": {
+    "react-dom": "16.0.0",
+    "react": "16.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
